@@ -6,7 +6,6 @@
 3. Jump Search
 4. Interpolation Search
 5. Exponential Search
-6. Sublist Search (Search a linked list in another list)
 7. Fibonacci Search
 8. The Ubiquitous Binary Search
 9. Recursive program to linearly search an element in a given array
