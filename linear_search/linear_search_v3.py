@@ -27,3 +27,6 @@ if result == -1:
     print("Number is not present in list")
 else:
     print(f"Number number {number} is present at index", result)
+
+
+# OUTPUT =>> Number number 7 is present at index 2
