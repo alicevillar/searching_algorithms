@@ -18,6 +18,7 @@ def searching(array, size, target): # 3 parameters: the array, size of the array
         if (array[i] == target): # check if the target number matches an element in the list
             return i # If the target number is present then return its location
     return -1 # didn't found the number
+# NOTE ->> Although the target number (10) is present in index 5 and 8, the output will be 5
 
 # Calling the function and printing the result
 result = searching(array, size, target)
@@ -28,3 +29,4 @@ else:
 
 
 # OUTPUT =>> Element is present at index 5
+
