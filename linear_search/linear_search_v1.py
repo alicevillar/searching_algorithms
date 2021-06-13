@@ -2,7 +2,7 @@
 ##############################################################################################################
 #
 #   Linear Search - VERSION 1
-#   This function compare the target number with each element of the array
+#   This function compares the target number with each element of the array
 #   If the target number is present, then return its location
 #
 ##############################################################################################################
