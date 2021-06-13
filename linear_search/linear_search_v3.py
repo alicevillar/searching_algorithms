@@ -1,33 +1,29 @@
-#Linear Search Test
 
-import time
+##############################################################################################################
+#
+#   Linear Search - VERSION 3
+#
+#
+##############################################################################################################
 
-def linearSearch(myItem, myList):
-    found = False
-    position = 0
+def searching(list, size, number):
+    i=0 #index 0
 
-    while (position < len(myList) and not found):
-            if (myList[position] == myItem):
-                found = True
-            position = position + 1
-    return found
+    while i < size and list[i] != number: #loop stops if checked the whole list or found the target number
+        i = i+1 #check the next number
 
-def calcRuntime(linearSearch, myItem, myList):
-    start = time.perf_counter()
-    result = linearSearch(myItem, myList)
-    end = time.perf_counter()
-    elapsed = (end - start) * 100000
-    return elapsed
+        if i == size: # if the search is done through all the elements and the number is not found
+            return -1 #
+    return i #else, the return the element found
 
-if (__name__ == "__main__"):
-    #nums1 = [1, 5, 10, 12, 20, 26, 30]
-    nums1 = [-125, -50, -1, 0, 1, 5, 7, 10, 12, 20, 26, 30, 50, 127, 500, 833, 900, 1000, 12345, 123456]
-    numToFind = int(input("What number do you want to find? "))
-    isitFound = linearSearch(numToFind, nums1)
-    timetoFind = calcRuntime(linearSearch, numToFind, nums1)
-    if (isitFound):
-        print("Your item is in the list")
-        print("Time to find: ", timetoFind)
-    else:
-        print("Your item is not in the list")
-        print("Time to find: ", timetoFind)
+list = [1,2,7,0,5,6,8,9,7]
+number = 7
+size = len(list)
+
+# Calling the function and saving in the variable result
+result = searching(list, size, number)
+
+if result == -1:
+    print("Number is not present in list")
+else:
+    print(f"Number number {number} is present at index", result)

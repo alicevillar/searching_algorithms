@@ -16,6 +16,7 @@ def search(list,target):
 
 list = [1,2,7,4,5,6,7,8,9,7]
 target = 7
+
 search(list,target)
 
 # OUTPUT =>>
