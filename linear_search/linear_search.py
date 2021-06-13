@@ -9,7 +9,7 @@
 
 
 # Driver Code
-array = [2, 3, 4, 40, 70, 10, 84, 59, 33]
+array = [2, 3, 4, 40, 70, 10, 84, 59, 10]
 size = len(array)
 target = 10
 
@@ -29,6 +29,7 @@ else:
 
 # OUTPUT =>> Element is present at index 5
 
+
 ##############################################################################################################
 #
 #   Linear Search - VERSION 2
@@ -36,7 +37,7 @@ else:
 #
 ##############################################################################################################
   
- 
+'''  
  
 def search(list,target):
     for i in range(len(list)): # One by one compare the target number with each element of the array
@@ -53,3 +54,5 @@ search(list,target)
 # 2
 # 6
 # 9
+ 
+'''
