@@ -15,8 +15,7 @@ Here are different versions of the Linear Search algorithm.
 
 * [linear_search_v3.py](https://github.com/alicevillar/Searching_Algorithms/blob/main/linear_search/linear_search_v3.py) =>  This version uses a while loop. The algorithm compares the target number with each element of the array. If the target number is present then return its location. If the target element is present in the list more than once, the function will only return the first location.  
 
-* [linear_search_test.py]
-This version uses the while loop from version 3. Here the Run Time is verified with Python time module.  
+* [linear_search_test.py](https://github.com/alicevillar/Searching_Algorithms/blob/main/linear_search/linear_search_test.py) ==> This version uses the while loop from version 3. Here the Run Time is verified with Python time module.  
 
 #### Observations
 
@@ -26,6 +25,10 @@ This version uses the while loop from version 3. Here the Run Time is verified w
 
 
 # Binary Search 
+
+* [binary_search.py](https://github.com/alicevillar/Searching_Algorithms/blob/main/binary_search/binary_search.py) ==> Binary search with a while loop. 
+
+#### Observations
 
 * Binary search follows a divide and conquer methodology. It is faster than linear search but requires that the array be sorted before the algorithm is executed.
 * Assuming that we're searching for a value X in a sorted array, the algorithm compares X to the value of the middle element of the array, which we'll call mid.
