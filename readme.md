@@ -48,4 +48,7 @@ In the future, I intend to include the following algorithms in this repository:
 
 ### References
 
-https://www.geeksforgeeks.org/linear-search/
+[GreeksforGreeks](https://www.geeksforgeeks.org/linear-search/)
+
+[Search ALgorithms in Python](https://stackabuse.com/search-algorithms-in-python)
+
