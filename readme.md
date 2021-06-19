@@ -1,8 +1,6 @@
 <h1>Searching Algorithms </h1>
 
 > This repository contains a personal study of the following search algorithms: Linear Search, Binary Search and Jump Search. 
- 
-## Files
 
 # Linear Search 
 
