@@ -26,16 +26,16 @@ Here are different versions of the Linear Search algorithm.
 
 # Binary Search 
 
+Binary search follows a divide and conquer methodology. It is faster than linear search but requires that the array be sorted before the algorithm is executed.
+
 * [binary_search.py](https://github.com/alicevillar/Searching_Algorithms/blob/main/binary_search/binary_search.py) ==> Binary search with a while loop. 
 
 #### Observations
 
-* Binary search follows a divide and conquer methodology. It is faster than linear search but requires that the array be sorted before the algorithm is executed.
 * Assuming that we're searching for a value X in a sorted array, the algorithm compares X to the value of the middle element of the array, which we'll call mid.
 * If mid is the element we are looking for (best case), we return its index.
 * If not, we identify whether X is smaller or greater than mid, and discard the other side of the array.
 * Ifnhhhn follow the same steps, choosing a new value for mid, comparing it with val and discarding half of the possible matches in each iteration of the algorithm.
-
 
 
 ### Roadmap 
